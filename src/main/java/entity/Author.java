@@ -12,7 +12,7 @@ import java.util.List;
 @Setter
 @ToString(of = {"id", "name"})
 @Entity(name = "Author")
-@Table(name = "tb_author")
+@Table(name = "tb1_author")
 @NamedQueries(
         {
                 @NamedQuery(name = Author.AT_LEAST_ONE_BOOK, query = "select a from Author a where a.id = :id")
